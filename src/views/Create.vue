@@ -13,7 +13,7 @@
 
 	   		<div class="input-field">
 		        <textarea id="description" class="materialize-textarea" v-model="description"></textarea>
-		        <label for="description">Textarea</label>
+		        <label for="description">Description</label>
 		        <span class="character-counter" style="float: right; font-size: 12px;">
 		        {{description.length}}/2048</span>
 	        </div>
